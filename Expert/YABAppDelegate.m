@@ -7,12 +7,21 @@
 //
 
 #import "YABAppDelegate.h"
+#import "YABExpertsViewController.h"
 
 @implementation YABAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UITabBarController *tabBarController = [[UITabBarController alloc] initWithNibName:nil bundle:nil];
+
+    YABExpertsViewController *expertsViewController = [[YABExpertsViewController alloc] initWithStyle:UITableViewStylePlain];
+    [tabBarController addChildViewController:expertsViewController];
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    self.window.rootViewController = tabBarController;
+
     return YES;
 }
 							

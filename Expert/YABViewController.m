@@ -7,6 +7,7 @@
 //
 
 #import "YABViewController.h"
+#import "YABStartView.h"
 
 @interface YABViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    _startView = [[YABStartView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:_startView];
 }
 
 - (void)didReceiveMemoryWarning

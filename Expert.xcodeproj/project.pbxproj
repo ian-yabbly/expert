@@ -21,6 +21,18 @@
 		3C3E8959183BB01D0030B246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3E893B183BB01D0030B246 /* UIKit.framework */; };
 		3C3E8961183BB01D0030B246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C3E895F183BB01D0030B246 /* InfoPlist.strings */; };
 		3C3E8963183BB01D0030B246 /* ExpertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8962183BB01D0030B246 /* ExpertTests.m */; };
+		3C3E896D183BB1090030B246 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3E896C183BB1090030B246 /* libsqlite3.dylib */; };
+		3C3E8970183D64EE0030B246 /* YABRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E896F183D64EE0030B246 /* YABRestClient.m */; };
+		3C3E8973183D66580030B246 /* YABStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8972183D66580030B246 /* YABStartView.m */; };
+		3C3E8979183D7E560030B246 /* NSString+UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8978183D7E560030B246 /* NSString+UrlEncode.m */; };
+		3C3E897C183E63430030B246 /* YABService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E897B183E63430030B246 /* YABService.m */; };
+		3C3E897F183E635E0030B246 /* YABModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E897E183E635E0030B246 /* YABModel.m */; };
+		3C3E8982183E67400030B246 /* YABRootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8981183E67400030B246 /* YABRootModel.m */; };
+		3C3E8995183E67C00030B246 /* YABUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8994183E67C00030B246 /* YABUser.m */; };
+		3C3E8998183E67CE0030B246 /* YABExpertUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E8997183E67CE0030B246 /* YABExpertUser.m */; };
+		3C3E899B183E67D70030B246 /* YABExpertRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E899A183E67D70030B246 /* YABExpertRequest.m */; };
+		3C3E899E183E88C90030B246 /* YABExpertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E899D183E88C90030B246 /* YABExpertsViewController.m */; };
+		3C3E89A1183E8B100030B246 /* YABExpertTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E89A0183E8B100030B246 /* YABExpertTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,29 @@
 		3C3E895E183BB01D0030B246 /* ExpertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpertTests-Info.plist"; sourceTree = "<group>"; };
 		3C3E8960183BB01D0030B246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C3E8962183BB01D0030B246 /* ExpertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpertTests.m; sourceTree = "<group>"; };
+		3C3E896C183BB1090030B246 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3C3E896E183D64EE0030B246 /* YABRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABRestClient.h; sourceTree = "<group>"; };
+		3C3E896F183D64EE0030B246 /* YABRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABRestClient.m; sourceTree = "<group>"; };
+		3C3E8971183D66580030B246 /* YABStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABStartView.h; sourceTree = "<group>"; };
+		3C3E8972183D66580030B246 /* YABStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABStartView.m; sourceTree = "<group>"; };
+		3C3E8977183D7E560030B246 /* NSString+UrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncode.h"; sourceTree = "<group>"; };
+		3C3E8978183D7E560030B246 /* NSString+UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncode.m"; sourceTree = "<group>"; };
+		3C3E897A183E63430030B246 /* YABService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABService.h; sourceTree = "<group>"; };
+		3C3E897B183E63430030B246 /* YABService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABService.m; sourceTree = "<group>"; };
+		3C3E897D183E635E0030B246 /* YABModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABModel.h; sourceTree = "<group>"; };
+		3C3E897E183E635E0030B246 /* YABModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABModel.m; sourceTree = "<group>"; };
+		3C3E8980183E67400030B246 /* YABRootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABRootModel.h; sourceTree = "<group>"; };
+		3C3E8981183E67400030B246 /* YABRootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABRootModel.m; sourceTree = "<group>"; };
+		3C3E8993183E67C00030B246 /* YABUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABUser.h; sourceTree = "<group>"; };
+		3C3E8994183E67C00030B246 /* YABUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABUser.m; sourceTree = "<group>"; };
+		3C3E8996183E67CE0030B246 /* YABExpertUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABExpertUser.h; sourceTree = "<group>"; };
+		3C3E8997183E67CE0030B246 /* YABExpertUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABExpertUser.m; sourceTree = "<group>"; };
+		3C3E8999183E67D70030B246 /* YABExpertRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABExpertRequest.h; sourceTree = "<group>"; };
+		3C3E899A183E67D70030B246 /* YABExpertRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABExpertRequest.m; sourceTree = "<group>"; };
+		3C3E899C183E88C90030B246 /* YABExpertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABExpertsViewController.h; sourceTree = "<group>"; };
+		3C3E899D183E88C90030B246 /* YABExpertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABExpertsViewController.m; sourceTree = "<group>"; };
+		3C3E899F183E8B100030B246 /* YABExpertTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABExpertTableCell.h; sourceTree = "<group>"; };
+		3C3E89A0183E8B100030B246 /* YABExpertTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABExpertTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3E896D183BB1090030B246 /* libsqlite3.dylib in Frameworks */,
 				3C3E893A183BB01D0030B246 /* CoreGraphics.framework in Frameworks */,
 				3C3E893C183BB01D0030B246 /* UIKit.framework in Frameworks */,
 				3C3E8938183BB01D0030B246 /* Foundation.framework in Frameworks */,
@@ -101,6 +137,7 @@
 		3C3E8936183BB01D0030B246 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C3E896C183BB1090030B246 /* libsqlite3.dylib */,
 				3C3E8937183BB01D0030B246 /* Foundation.framework */,
 				3C3E8939183BB01D0030B246 /* CoreGraphics.framework */,
 				3C3E893B183BB01D0030B246 /* UIKit.framework */,
@@ -117,6 +154,28 @@
 				3C3E8949183BB01D0030B246 /* Main.storyboard */,
 				3C3E894C183BB01D0030B246 /* YABViewController.h */,
 				3C3E894D183BB01D0030B246 /* YABViewController.m */,
+				3C3E899C183E88C90030B246 /* YABExpertsViewController.h */,
+				3C3E899D183E88C90030B246 /* YABExpertsViewController.m */,
+				3C3E899F183E8B100030B246 /* YABExpertTableCell.h */,
+				3C3E89A0183E8B100030B246 /* YABExpertTableCell.m */,
+				3C3E8971183D66580030B246 /* YABStartView.h */,
+				3C3E8972183D66580030B246 /* YABStartView.m */,
+				3C3E897A183E63430030B246 /* YABService.h */,
+				3C3E897B183E63430030B246 /* YABService.m */,
+				3C3E897D183E635E0030B246 /* YABModel.h */,
+				3C3E897E183E635E0030B246 /* YABModel.m */,
+				3C3E896E183D64EE0030B246 /* YABRestClient.h */,
+				3C3E896F183D64EE0030B246 /* YABRestClient.m */,
+				3C3E8977183D7E560030B246 /* NSString+UrlEncode.h */,
+				3C3E8978183D7E560030B246 /* NSString+UrlEncode.m */,
+				3C3E8980183E67400030B246 /* YABRootModel.h */,
+				3C3E8981183E67400030B246 /* YABRootModel.m */,
+				3C3E8993183E67C00030B246 /* YABUser.h */,
+				3C3E8994183E67C00030B246 /* YABUser.m */,
+				3C3E8996183E67CE0030B246 /* YABExpertUser.h */,
+				3C3E8997183E67CE0030B246 /* YABExpertUser.m */,
+				3C3E8999183E67D70030B246 /* YABExpertRequest.h */,
+				3C3E899A183E67D70030B246 /* YABExpertRequest.m */,
 				3C3E894F183BB01D0030B246 /* Images.xcassets */,
 				3C3E893E183BB01D0030B246 /* Supporting Files */,
 			);
@@ -250,9 +309,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3E897C183E63430030B246 /* YABService.m in Sources */,
+				3C3E8995183E67C00030B246 /* YABUser.m in Sources */,
 				3C3E8944183BB01D0030B246 /* main.m in Sources */,
+				3C3E897F183E635E0030B246 /* YABModel.m in Sources */,
 				3C3E8948183BB01D0030B246 /* YABAppDelegate.m in Sources */,
+				3C3E8982183E67400030B246 /* YABRootModel.m in Sources */,
 				3C3E894E183BB01D0030B246 /* YABViewController.m in Sources */,
+				3C3E89A1183E8B100030B246 /* YABExpertTableCell.m in Sources */,
+				3C3E8973183D66580030B246 /* YABStartView.m in Sources */,
+				3C3E8998183E67CE0030B246 /* YABExpertUser.m in Sources */,
+				3C3E899E183E88C90030B246 /* YABExpertsViewController.m in Sources */,
+				3C3E8970183D64EE0030B246 /* YABRestClient.m in Sources */,
+				3C3E899B183E67D70030B246 /* YABExpertRequest.m in Sources */,
+				3C3E8979183D7E560030B246 /* NSString+UrlEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

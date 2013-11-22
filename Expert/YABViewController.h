@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YABStartView.h"
 
 @interface YABViewController : UIViewController
+
+@property (nonatomic, strong) YABStartView *startView;
 
 @end

@@ -14,3 +14,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#import "YABUser.h"
+#import "YABExpertUser.h"
+#import "YABExpertRequest.h"
